@@ -24,7 +24,7 @@ Tasks
 
 # ------
 
-# NOTICE: (DO THE FIRST TASK, IF THE BACKEND TASK HAS GIVE TO YOU:)
+# NOTICE: (DO THE FIRST TASK, IF THE BACKEND TASK HAS BEEN GIVEN TO YOU)
 
 # ------
 
@@ -40,7 +40,7 @@ Ensure the estimates are retrieved and displayed properly, and new estimates are
 
 # ------
 
-# NOTICE: (DO THE FIRST TASK, IF THE BACKEND TASK HAS GIVE TO YOU:)
+# NOTICE: (DO THE FIRST TASK, IF THE BACKEND TASK HAS BEEN GIVEN TO YOU)
 
 # ------
 
