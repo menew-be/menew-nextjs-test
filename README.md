@@ -1,40 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Next.js Estimate Management App
+Overview
 
-## Getting Started
+This is a Next.js project that interacts with a Django backend to manage estimates and their associated equipment. The frontend allows users to:
 
-First, run the development server:
+    View a list of estimates.
+    Add new estimates with multiple pieces of equipment.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+We are looking for improvements to the project as detailed below.
+Tasks
+1. Connect Backend API to Frontend
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Ensure the frontend (using index.tsx and add.tsx) is correctly connected to the Django backend API.
+    Make any necessary changes to ensure smooth communication between the frontend and backend.
+    Ensure the estimates are retrieved and displayed properly, and new estimates are created with associated equipment.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+2. Use Environment Variables
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+    Introduce and utilize environment variables where appropriate, such as for API endpoints.
+    Update the project to dynamically handle different environments (development, production) through .env files.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+3. Evaluate Routing System
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    The project currently uses the pages routing system.
+    Evaluate whether to stick with the current routing structure or migrate to app/ routing for better flexibility and scalability.
+    Provide reasoning and implement changes accordingly if necessary.
 
-## Learn More
+4. Improve Component System
 
-To learn more about Next.js, take a look at the following resources:
+    Refactor the code to make better use of components. For instance, break down common elements like headers, forms, and lists into reusable components.
+    Ensure the code is organized for scalability and maintainability.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Eliminate Code Duplication
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    Review the project for any duplicate or redundant code.
+    Refactor the code to remove duplications, following DRY (Don't Repeat Yourself) principles.
 
-## Deploy on Vercel
+6. Functional Improvements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    Improve the overall functionality of the project.
+    Add error handling, loading states, and improve the user interaction with API calls.
+    Ensure smooth navigation and a robust user experience across the app.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+7. Visual and UX Enhancements
+
+    Improve the visual design and user experience of the application.
+    Add appropriate CSS styles to make the app more visually appealing and enjoyable to use.
+    Use your creativity to enhance the UI, ensuring it aligns with modern design standards.
+
+Notes
+
+    All changes should be documented and commented for easy understanding.
+    Ensure cross-browser compatibility and responsiveness where applicable.
+
+
+How to Submit:
+
+    Option 1: Create a .zip file containing the entire project and send it via email.
+    Option 2: Push your changes to a new public repository and provide the link to it.
+
+Feel free to customize or modify any sections based on your preferences.
