@@ -8,11 +8,18 @@ This is a Next.js project that interacts with a Django backend to manage estimat
 
 We are looking for improvements to the project as detailed below.
 Tasks
-1. Connect Backend API to Frontend
+
+# ------
+# NOTICE: (DO THE FIRST TASK, IF THE BACKEND TASK HAS GIVE TO YOU:)
+# ------
+1.  Connect Backend API to Frontend
 
     Ensure the frontend (using index.tsx and add.tsx) is correctly connected to the Django backend API.
     Make any necessary changes to ensure smooth communication between the frontend and backend.
     Ensure the estimates are retrieved and displayed properly, and new estimates are created with associated equipment.
+# ------
+# NOTICE: (DO THE FIRST TASK, IF THE BACKEND TASK HAS GIVE TO YOU:)
+# ------
 
 2. Use Environment Variables
 
